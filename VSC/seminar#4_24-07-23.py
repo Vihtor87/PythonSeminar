@@ -48,13 +48,13 @@ Output: a a_1 a_2 b c a_3 a_4 d c_1 d_1 d_2
 Для решения данной задачи используйте функцию .split()
 '''
 
-lst = 'a a a b c a a d c d d'
-lst1 = lst.split()
-dict1 = {}
-
-for i in lst1:
-    if i not in dict1:
-        print(i, end=' ')
-    else:
-        print(i, end=' ')
-    dict1[i] = dict1.get(i, 0) + 1
+# lst = 'a a a b c a a d c d d'
+# lst1 = lst.split()
+# dict1 = {}
+#
+# for i in lst1:
+#     if i in dict1:
+#         print(f'{i}_{dict1[i]}', end=' ')
+#     else:
+#         print(i, end=' ')
+#     dict1[i] = dict1.get(i, 0) + 1
