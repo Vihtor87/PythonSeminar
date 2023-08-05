@@ -111,16 +111,16 @@ print("different")
 
 Вывод: same
 '''
-def same_by(characteristic, objects):
-    new_objects = list(filter(characteristic, objects))
-    if len(new_objects) == len(objects) or len(new_objects) == 0:
-        return True
-    else:
-        return False
-
-
-values = [0, 2, 10, 6]
-if same_by(lambda x: x % 2, values):
-    print("same")
-else:
-    print("different")
+# def same_by(characteristic, objects):
+#     new_objects = list(filter(characteristic, objects))
+#     if len(new_objects) == len(objects) or len(new_objects) == 0:
+#         return True
+#     else:
+#         return False
+#
+#
+# values = [0, 2, 10, 6]
+# if same_by(lambda x: x % 2, values):
+#     print("same")
+# else:
+#     print("different")
