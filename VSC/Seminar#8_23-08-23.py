@@ -44,9 +44,9 @@ def find_contact(book: dict, search: str):
 
 
 def func_search(book: dict):
-    searсh = input('Введите параметр для поиска: ')
-    result = find_contact(book, searсh)
-    show_contacts(result, f'Контакт содержащий {searсh} не найден!')
+    findet = input('Введите параметр для поиска: ')
+    result = find_contact(book, findet)
+    show_contacts(result, f'Контакт содержащий {findet} не найден!')
 
 
 def change_contact(book: dict, cid: int):
@@ -112,5 +112,5 @@ while True:
             name = delete_contact(phone_book, select)
             print(f'\nКонтакт {name} успешно удалён!\n')
         case 8:
-            print('\nВсего хорошего!')
+            print('\nНу всё, пока!')
             break
